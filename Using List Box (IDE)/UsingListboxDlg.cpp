@@ -162,7 +162,7 @@ void UsingListboxDlg::Cls_OnCommand(HWND hwnd, int id, HWND hwndCtl, UINT codeNo
     }
 }
 
-void UsingListboxDlg::Cls_OnClose(HWND hwnd)
+void UsingListboxDlg::Cls_OnClose(HWND hwnd)    
 {
     EndDialog(hwnd, 0);
 }
